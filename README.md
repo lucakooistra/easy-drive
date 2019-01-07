@@ -8,3 +8,4 @@ het prijzenpakket wordt gemaakt door timothy.
 inlog gegeven met zijn alle via Cloud9.
 diploma pagina wordt gemaakt door ismael.
 geschiedenis wordt gemaakt door christian.
+contact pagina wordt gemaatk door astrid.
