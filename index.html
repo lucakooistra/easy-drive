@@ -19,59 +19,70 @@
         .content{
             width: 70%;
             height: 100vh;
-            background-color: aqua;
+            background-color: #dce4f7;
             float: left;
         }
         .side{
             width: 15%;
             height: 100vh;
-            background-color: red;
+            background-color: #dce4f7;
             float: left;
         }
         .footer{
             position:fixed;
             bottom:0;
-            width: 70%;
+            left:0;
+            width: 100%;
             height: 4vh;
-            background-color: blueviolet;
+            background-color: #404042;
             left: 15vw;
         }
-        ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-              width: 200px;
-              background-color: #f1f1f1;
-              position: sticky;
-            }
-
-        li a {
-              display: block;
-              color: #000;
-              padding: 8px 16px;
-              text-decoration: none;
-              position: sticky;
+        .sidenav {
+          height: 98%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background-color: black;
+       
+          padding-top: 20px;
         }
 
-        li a:hover {
-              background-color: #555;
-              color: white;
-              position: sticky;
+        .sidenav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+        }
+
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+
+        .logo1{
+          width: 100%;
+          margin-top: 0px;
         }
     </style>
 </head>
 <body>
     <div class="header">
-<ul>
-  <li><a href="">AB1</a></li>
-  <li><a href="">AB2</a></li>
-  <li><a href="">AB3</a></li>
-  <li><a href="">AB4</a></li><ul>
-</ul>
+
+<div class="sidenav">
+       <a href=""><img src="image/logo.png" class="logo1"></a>
+  <a href="#about">Home</a>
+  <a href="#services">OpaBert</a>
+  <a href="#clients">Rijles</a>
+  <a href="#contact">Poodiepa</a>
+  <a href="#contact">Nigger</a>
+  <a href="#contact">Muis</a>
+  <a href="#contact">Calculator</a>
+</div>
+
     </div>
     
     <div class="content"></div>
-    <div class="side"></div>
+    <div class="side"><img src="image/reclame.jpg"></div>
     <div class="footer"></div>
 </body>
 </html>
